@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css">
+     <link rel="icon" type="image/x-icon" href="/assets/ico-Mindtech.png">
+    <title>ChatWeb Prueba - MindTechSourcing</title>
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="bienvenida">
+            <h2>Bienvenido al</h2>
+            <span>
+                <h2>Chatweb de <span class="mindtech">MindTechSourcing</span></h2>
+            </span>
+        </div>
+        <div class="leyenda">
+            <p>Encuentra respuestas al instante</p>
+            <span>
+                <p>con nuestro asistente virtual</p>
+            </span>
+        </div>
+    </div>
+    <div>
+
+    </div>
+
+
+
+</body>
+<script>
+  window.chatwootSettings = {"position":"right","type":"standard","launcherTitle":"Chatea con nosotros"};
+  (function(d,t) {
+    var BASE_URL="https://aardvark-rich-boxer.ngrok-free.app";
+    var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=BASE_URL+"/packs/js/sdk.js";
+    g.defer = true;
+    g.async = true;
+    s.parentNode.insertBefore(g,s);
+    g.onload=function(){
+      window.chatwootSDK.run({
+        websiteToken: 'vcAjDLVExHqi4qZoJzryxtx2',
+        baseUrl: BASE_URL
+      })
+    }
+  })(document,"script");
+</script>
+
+
+
+
+
+</html>

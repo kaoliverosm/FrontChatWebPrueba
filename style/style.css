@@ -1,0 +1,86 @@
+*,
+html {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Calibri, sans-serif;
+  background: rgb(57,52,75);
+  background: linear-gradient(317deg, rgba(57,52,75,1) 0%, rgba(39,25,90,1) 100%);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+
+}
+
+.fondo img {
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.container {
+  width: min(90%, 1200px);
+}
+
+.bienvenida {
+  width: 100%;
+  color: white;
+  font-size: 2rem;
+  text-align: left;
+}
+
+span h2{
+    color: #FD3A6C;
+}
+
+.mindtech{
+
+  
+ color: #8F0EC5;
+
+}
+
+.logo-bancoldex {
+  margin: 25px 0;
+}
+
+.logo-bancoldex img {
+  width: 100%;
+  max-width: 506px;
+  height: auto;
+}
+
+.leyenda p {
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 0;
+  text-align: left;
+
+  margin-top: 10px;
+  line-height:normal;
+}
+
+@media (max-width: 600px) {
+  .bienvenida {
+    font-size: 1rem;
+    padding: 15px;
+  }
+
+  .leyenda p {
+    font-size: 0.875rem;
+  }
+
+  .logo-bancoldex img {
+    max-width: 100%;
+  }
+}
